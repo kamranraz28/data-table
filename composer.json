@@ -1,0 +1,22 @@
+{
+    "name": "kamran/datatable",
+    "description": "A Laravel package for automatic DataTables with pagination, search, export.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^8|^9|^10",
+        "yajra/laravel-datatables-oracle": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamran\\DataTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kamran\\DataTable\\DataTableServiceProvider"
+            ]
+        }
+    }
+}
